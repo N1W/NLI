@@ -1,0 +1,43 @@
+.main__left,
+.main__center,
+.main__right {
+	display: inline-block;
+	width: 33%;
+	text-align: center;	
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.s-menu__item {
+	padding-bottom: 10px;
+}
+
+.s-menu__item p {
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+
+.s-menu__item p:hover {
+	background: rgba(0,0,0,0.8);
+	color: white;
+}
+
+.s-submenu {
+	border: 1px solid black;
+	border-top: none;
+	text-align: left;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.s-submenu {
+	display: none;
+}
+
+h6 {
+	padding-top: 10px;
+	font-size: 14px;
+}

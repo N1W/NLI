@@ -1,0 +1,66 @@
+.info {
+	float: none;
+	display: inline-block;
+}
+
+.sticky-wrapper {
+	float: left;
+	display: inline-block;
+}
+
+.options {
+    position: fixed;
+    left: 3vw;
+    top: 29vh;
+    z-index: 0;
+}
+
+.info__title,
+.info__text,
+.info__why,
+.info__because {
+	text-align: center;
+}
+
+.title__header {
+	font-size: 32px;
+}
+
+span {
+	font-weight: 700;
+}
+
+.part-of {
+	padding-bottom: 10vh;
+	width: 50vw;
+	margin: 0 auto;
+	margin-top: -10vh;
+}
+
+.landlord .info__title,
+.landlord .info__text,
+.landlord .info__why,
+.landlord .info__because,
+.boat .info__title,
+.boat .info__text,
+.boat .info__why,
+.boat .info__because,
+.business .info__title,
+.business .info__text,
+.business .info__why,
+.business .info__because,
+.rv .info__title,
+.rv .info__text,
+.rv .info__why,
+.rv .info__because,
+.life .info__title,
+.life .info__text,
+.life .info__why,
+.life .info__because {
+	padding-bottom: 30px;
+}
+
+.no-dot{
+	list-style: none;
+}
+
